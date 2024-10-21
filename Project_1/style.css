@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html,
+body {
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Categories Section begins */
+
+.categories_item {
+    height: 85vh;
+    background-image: url(assets/categories/category-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.categories_text h1 {
+    font-family: "Cookie", cursive;
+    font-size: 4rem;
+}
+
+.categories_text p {
+    color:
+        rgb(102, 102, 102);
+}
+
+.categories_text h4 {
+    font-weight: 700;
+}
+
+.categories_text a {
+    border-bottom: 0.15rem solid rgb(202, 21, 21);
+}
+
+.col2_categories_item {
+    height: 42vh;
+}
+
+.bg-2 {
+    background-image: url(assets/categories/category-2.jpg);
+}
+
+.bg-3 {
+    background-image: url(assets/categories/category-3.jpg);
+}
+
+.bg-4 {
+    background-image: url(assets/categories/category-4.jpg);
+}
+
+.bg-5 {
+    background-image: url(assets/categories/category-5.jpg);
+}
+
+.bg-2,
+.bg-3,
+.bg-4,
+.bg-5 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.nav-link span {
+    border-bottom: 0.15rem solid rgb(202, 21, 21);
+}
+
+
+/* Product Section Begin */
+
+.product-section-title h4 {
+    font-weight: 600;
+}
+
+.product-section-title span,
+.main {
+    border-bottom: 0.15rem solid rgb(202, 21, 21);
+}
+
+.prod_bg {
+    height: 55vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+}
+
+.label-new {
+    font-size: 0.7rem;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
+
+.product__hover {
+    position: absolute;
+    width: 100%;
+    bottom: 5%;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all 0.5s ease;
+}
+
+.prod_bg:hover .product__hover {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.product__hover li {
+    background-color: white;
+    border-radius: 50%;
+    transition: all 0.4s ease;
+}
+
+.product__hover li:hover {
+    background-color: #ca1515;
+    border-radius: 50%;
+    color: white;
+    transform: rotate(360deg);
+}
+
+.prod_bg_1 {
+    background-image: url(assets/product/product-1.jpg);
+}
+
+.prod_bg_2 {
+    background-image: url(assets/product/product-2.jpg);
+}
+
+.prod_bg_3 {
+    background-image: url(assets/product/product-3.jpg);
+}
+
+.prod_bg_4 {
+    background-image: url(assets/product/product-4.jpg);
+}
+
+.prod_bg_5 {
+    background-image: url(assets/product/product-5.jpg);
+}
+
+.prod_bg_6 {
+    background-image: url(assets/product/product-6.jpg);
+}
+
+.prod_bg_7 {
+    background-image: url(assets/product/product-7.jpg);
+}
+
+.prod_bg_8 {
+    background-image: url(assets/product/product-8.jpg);
+}
+
+/* Banner Section Begin  */
+
+.banner-bg-img {
+    background-image: url(assets/banner/banner-1.jpg);
+    height: 68vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.banner__text>h1 {
+    font-family: "Cookie", cursive;
+}
+
+.carousel{
+    width: 55%;
+}
+
+
+/* Trend Section Begin */
+.section-title>h4 {
+    font-weight: 600;
+}
+
+.trend__item__text,
+h6 {
+    font-size: 0.9rem;
+}
+
+/* Discount Section Begin */
+
+/* .dis_text{
+    position: relative;
+} */
+
+/* .discount__text__title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    aspect-ratio: 1 !important; 
+} */
+
+.discount__text {
+    background-color: rgb(244, 244, 244);
+}
+
+.disc,
+.sale {
+    font-family: "Montserrat", sans-serif;
+}
+
+.summer {
+    font-family: "Cookie", cursive;
+}
+
+.dis-shop-now {
+    border-bottom: 2px solid #ca1515;
+}
+
+/* CountDown Section */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: Roboto, sans-serif;
+    font-size: 100%;
+}
+
+.clock-wrap {
+    margin: 2% 0;
+}
+
+.expired {
+    display: none;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1em;
+}
+
+.expired.show {
+    display: block;
+}
+
+.clock {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.clock .time-block {
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.clock .time-block .time {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+/* Service section begin */
+
+.service__item i {
+    color: #ca1515;
+}
+
+.service__item p {
+    font-family: "Montserrat", sans-serif;
+}
+
+.service__detail {
+    color: #666666;
+}
+
+/* Service section end */
+
+/* Instagram section start */
+.insta__item {
+    height: 40vh;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+}
+
+.insta__item::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255, 0.9);
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.3s ease;
+}
+
+.insta__txt {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.insta__item:hover::after {
+    opacity: 1;
+}
+
+.insta__txt:hover {
+    opacity: 1;
+}
+
+.inst_bg_1 {
+    background-image: url(assets/instagram/insta-1.jpg);
+}
+
+.inst_bg_2 {
+    background-image: url(assets/instagram/insta-2.jpg);
+}
+
+.inst_bg_3 {
+    background-image: url(assets/instagram/insta-3.jpg);
+}
+
+.inst_bg_4 {
+    background-image: url(assets/instagram/insta-4.jpg);
+}
+
+.inst_bg_5 {
+    background-image: url(assets/instagram/insta-5.jpg);
+}
+
+.inst_bg_6 {
+    background-image: url(assets/instagram/insta-6.jpg);
+}
+
+/* Instagram section end */
+
+/* Footer section begin */
+
+.footer__about p {
+    font-family: "Montserrat", sans-serif;
+    color: #666666;
+    font-size: 0.8rem;
+}
+
+.footer__widget>ul {
+    list-style-type: none;
+}
+
+.footer__widget a {
+    color: #666666;
+    font-size: 0.8rem;
+}
+
+.footer__newsletter form {
+    position: relative;
+}
+
+.footer__newsletter form input {
+    height: 3rem;
+    width: 100%;
+    padding-right: 120px;
+    border: 1px solid #e1e1e1;
+    color: #666666;
+}
+
+.footer__newsletter form button {
+    position: absolute;
+    right: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 2.7rem;
+    border: none;
+    font-size: 0.8rem;
+    white-space: nowrap;
+}
+
+.footer__social a{
+    display: inline-block;
+    background: #e1e1e1;
+    border-radius: 50%;
+}
+
+.footer__copyright__text p {
+    color: #666666;
+}
+
+.footer__copyright__text a {
+    color: #5C5C5C;
+}
+
+.footer__copyright__text i {
+    color: #ca1515;
+}
+
+/* Footer section end */
+
+@media (max-width: 768px) {
+    .categories_item {
+        height: 150vh;
+    }
+
+    .col2_categories_item {
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .footer__newsletter form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__newsletter form button {
+        position: static; 
+        transform: none;
+        margin-top: 10px; 
+    }
+}
