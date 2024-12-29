@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.navbar-brand {
+    font-weight: 900;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.blog {
+    font-weight: 600;
+}
+
+.blog-para {
+    font-size: 1.2rem;
+    color: #848C8D;
+}
+
+.date {
+    font-size: 0.7rem;
+    color: #C2C2C2;
+
+}
+
+.card-text {
+    color: #848C8D;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+
+.card-img {
+    position: relative;
+}
+
+.card-title:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.label {
+    position: absolute;
+    width: 6.5rem;
+    top: 2%;
+    right: 2%;
+
+}
+
+.link:hover {
+    color: blue;
+    transition: all 0.1s ease-out;
+}

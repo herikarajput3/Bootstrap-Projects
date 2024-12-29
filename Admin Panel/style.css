@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+.dash {
+    background-image: linear-gradient(#FE512E,#F09619);
+    color: transparent;
+    background-clip: text;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 2rem;
+}

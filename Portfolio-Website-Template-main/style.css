@@ -82,3 +82,29 @@
 .zoom-effect:hover {
     transform: scale(1.1);
 }
+
+/* Remove scrollbar from website */
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 100%;
+    /* Ensure container doesn’t overflow */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    /* Ensure images are responsive */
+}
+
+.slider-item,
+.one-third,
+.blog-entry {
+    max-width: 100vw;
+    /* Ensures no section exceeds viewport width */
+    overflow: hidden;
+    /* Ensure no content spills over */
+}

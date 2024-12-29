@@ -32,80 +32,85 @@ h1 {
 }
 
 h2 {
-    line-height: 3rem;
+    line-height: 4rem;
     font-weight: 600;
     font-size: 3.4rem;
 }
 
-p{
+p {
     margin: 0;
     font-weight: 400;
     font-size: 1rem;
-    color: var( --bs-dark-color);
+    color: var(--bs-dark-color);
     letter-spacing: 0.07rem;
     line-height: 1.55rem;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-li{
+li {
     list-style: none;
 }
 
-button, a{
+button,
+a {
     font-size: 1.15rem !important;
     letter-spacing: 0.03rem;
     word-spacing: .1rem;
 }
 
-.common-heading{
+.common-heading {
     font-size: 2.8rem;
     font-weight: 500;
     letter-spacing: 0.01rem !important;
 }
 
-.common-title{
+.common-title {
     margin-bottom: 4.2rem;
 }
 
 /* Navbar */
 
-.nav-link{
+.nav-link {
     color: var(--bs-main-color);
     font-weight: bold;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: var(--secondary-color);
 }
 
 /* Hero Section Start */
 
-.hero-video--section{
+.hero-video--section {
     width: 30rem;
 }
 
-.hero-section .container{
+.hero-section .container {
     display: grid;
     place-content: center;
     height: inherit;
 }
 
-.bg-color{
+.bg-color {
     background-color: var(--bs-dark-color);
 }
 
-.bg-main{
+.bg-main {
     height: 80vh;
     position: relative;
 }
 
-.text-light-grey{
+.text-light-grey {
     color: var(--bs-primary-color);
+}
+
+.common-section{
+    padding: 0 0 9rem 0;
 }
 
 /*shape divider start */
@@ -118,7 +123,7 @@ button, a{
     overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
-    
+
 }
 
 .custom-shape-divider-bottom-1684208460 svg {
@@ -129,7 +134,7 @@ button, a{
 }
 
 .custom-shape-divider-bottom-1684208460 .shape-fill {
-    fill: var( --bs-main-color);
+    fill: var(--bs-main-color);
     border-bottom: none;
 }
 
@@ -137,19 +142,49 @@ button, a{
 
 /* Service Section Start */
 
-.service-section{
+.service-section {
     padding: 6rem 0 3rem 0;
 }
 
-.icon-span{
+.icon-span {
     width: 2.5rem;
     height: 2.5rem;
     background-color: var(--bs-secondary-color);
     color: var(--bs-main-color);
 }
 
-.card-box:hover{
-    box-shadow: rgba(149,157,165,0.2) 0 8px 24px;
+.card-box:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
 }
 
 /* Service Section End */
+
+/* Digital products showcase */
+
+.more-info-section {
+    background-image: linear-gradient(rgba(22, 22, 22, 0.7), rgba(22, 22, 22, 0.9)), url("https://images.pexels.com/photos/316093/pexels-photo-316093.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 6rem 0;
+    overflow: hidden;
+}
+
+.more-info-section .img-section {
+    position: relative;
+}
+
+.more-info-section .img-section img {
+    width: 70%;
+}
+
+/* Digital products showcase end  */
+
+/* Online mode Service Start */
+
+.business-section{
+    padding-top: 3rem;
+}
+
+/* Online mode Service end */
